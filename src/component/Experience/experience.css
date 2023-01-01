@@ -1,0 +1,97 @@
+.tabs {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-bottom: 30%;
+  }
+  
+  .tab-list {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    list-style: none;
+    margin-top: 10%;
+    padding: 0;
+  }
+  
+  .tab-item {
+    display: flex;
+    width: 200px;
+    text-align: center;
+    padding: 15px;
+    background-color: #020c1b;
+    color: #c5ceef;
+    cursor: pointer;
+    margin-top: 15%;
+    white-space: nowrap;
+    align-items: center;
+  }
+  
+  
+
+  li.active {
+    color: #017BFE;
+  }
+  
+  .tab-content {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 500px);
+    padding: 20px;
+    background-color: #020c1b;
+    color: #c5ceef;
+    margin-top: 15%;
+    margin-left: 10%;
+    text-align: center;
+    padding: 1rem;
+    
+  }
+  
+  .h5-container {
+    color: white;
+    margin-top: 2%;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: left;
+  }
+
+  li {
+    margin: 0.5rem 0;
+    padding: 0.5rem 0;
+   
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  }
+
+  .tab-content h2 {
+    margin-top: -1rem;
+    color: #017BFE;
+
+  }
+
+
+  .company-logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  border-radius: 50%;
+  }
+
+  .company-logo-cshub {
+    width: 35px;
+    height: 15px;
+    margin-right: 2px;
+  
+  }
+  
+  .company-logo p {
+    width: 10px;
+    display: inline;
+    
+  }
