@@ -37,18 +37,20 @@ const Header = () => {
         
         <div className="header__socials-container">
   <div className="header__socials">
-    <a href="https://www.linkedin.com/in/aradhyas8/" className="header__social">
+  <p> <a href="https://www.linkedin.com/in/aradhyas8/" className="header__social">
       <FaLinkedin />
     </a>
+    
     <a href="https://github.com/aradhyas8" className="header__social">
-      <FaGithub /> ━━━━━━━
-    </a>
+      <FaGithub />  ━━━━━━━ 
+    </a></p>
   </div>
 </div>
 
         
-        <p className="scroll__down">aradhya@my.yorku.ca ━━━━━━━━━━━</p>
+        
       </div>
+      <p className="scroll__down">aradhya@my.yorku.ca ━━━━━━━━━━━</p>
     </header>
   );
 };

@@ -9,10 +9,10 @@ return (
       </div>
   <div className="container__contact">
 <div className="what">
-<h3>What's Next?</h3>
+<p>What's Next?</p>
 </div>
 <div className="touch">
-<h3>Get In Touch</h3>
+<p>Get In Touch</p>
 </div>
 <div className="description__contact">
 <p>I will be glad to contribute to any project, Let's build something amazing together!</p>

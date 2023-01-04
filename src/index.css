@@ -42,7 +42,7 @@ body {
     background: var(--color-bg);
     color: var(--color-grey);
     line-height: 1.7;
-    
+    justify-content: center;
 }
 
 /*General Styles */

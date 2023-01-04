@@ -9,14 +9,16 @@
 
 .about__me {
   display: relative;
-  margin-top: 20%;
+  margin-top: 5%;
 }
 
 .about__line {
     display: left;
 }
 .h5-container {
+    padding-left: 2%;
     padding-top: 2%;
+    right: 50%;
     color: white;
 }
 

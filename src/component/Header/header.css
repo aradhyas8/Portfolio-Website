@@ -25,15 +25,14 @@ header {
 }
 
 .scroll__down {
-    color: #42a99a;
-    position: relative;
-    right: -57rem;
-    bottom: -25rem;
+    position: fixed;
+    bottom: -24%;
+    right: 0;
     transform: rotate(90deg);
-    font-weight: 10;
-    font-size: 14px;
-    
-    padding-left: 25%;
+    padding-top: 0;
+    margin-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 25%;
 }
 
 .description__header {
@@ -59,13 +58,14 @@ header {
 /* /Socials */
 
 .header__socials-container {
-    content: "";
-    display: block;
-    position: relative;
-    right: 67%;
-    top: 800px;
+    position: fixed;
+    bottom: -43%; /* adjust this value to move the text up or down */
+    left: 0;
     transform: rotate(90deg);
-    font-weight: 10;
+    padding-bottom: 20%;
+    margin-left: 15%;
+    padding-right: 15%;
+    padding-top: 27%;
 }
 
 .github {
@@ -78,11 +78,13 @@ header {
   
 .header__social {
     display: inline-block;
+    margin: 0 10px 0 0;
     color: var(--color-bg-variant);
     font-size: 20px;  /* reduce the size of the icons to 20px */
     text-decoration: none;
     transition: color 0.2s;
-    margin-right: 15px;
+    margin-right: 10px;
+    font-weight: lighter;
   }
 
   
@@ -90,8 +92,7 @@ header {
 /* /sections */
 
 .header__socials {
-    display: flex;
-    flex-direction: row;
+    
     align-items: center;
     gap: 0.2rem;
     position: absolute;

@@ -6,30 +6,25 @@
     
 }
 
-.touch > h3 {
+.touch > p {
     color: white;
-    position: relative;
-    left: 840px;
+    text-align: center;
     margin-bottom: 15px;
-    font-weight: -700;
+    font-size: 35px;
+    
+    font-weight: bold;
 }
 
-.description__contact {
-    width: 550px;
-}
 
 .description__contact > p {
-    text-align: center;
-    position: relative;
-    left: 685px;
-    margin-bottom: 30px;
+    padding: 0 35%;
+    margin-bottom: 25px;
 }
 
 
-.what > h3 {
-    position: relative;
-    left: 900px;
-    font-size: 16px;
+.what > p {
+    text-align: center;
+    font-size: 18px;
     margin-bottom: 20px;
     color: var(--color-bg-variant);
     font-weight: 300;
@@ -40,5 +35,9 @@
     display: flex;
     gap: 1.2rem;
     justify-content: center;
-    margin-left: 40px;
+    margin-left: 10px;
+}
+
+.description__contact {
+    text-align: center;
 }
