@@ -1,51 +1,44 @@
-.container.contact__container {
-    margin-right: 20%;
-    margin-top: 70px;
-    width: 25%;
+
+.container__contact {
+    position: relative;
+    top: 20%;
+    justify-content: center;
     
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-    gap: 1.2rem;
-}
-
-input, textarea {
-    width: 100%;
-    padding: 1.5rem;
-    border-radius: 0.5rem;
-    background: transparent;
-    border: 2px solid var(--color-primary-variant);
-    resize: none;
-    color: var(--color-grey);
-}
-
-.footer {
-    position: relative;
-  bottom: 150px;  /* Shift up by 20px */
-  width: 80%;
-  margin: 0 auto;
-  text-align: left;
-  color: var(--color-primary-variant);
-}
-
-.h5-container {
-    padding-top: 2%;
+.touch > h3 {
     color: white;
+    position: relative;
+    left: 840px;
+    margin-bottom: 15px;
+    font-weight: -700;
 }
 
-/* Medium Devices */
-@media screen and (max-width:1024px) {
-   .container.contact__container {
-    grid-template-columns: 1fr;
-    gap: 2rem;
-   }
+.description__contact {
+    width: 550px;
 }
 
-/* Small Devices */
-@media screen and (max-width:600px) {
-    .container.contact__container {
-        width: var(--container-width-sm);
-       }
+.description__contact > p {
+    text-align: center;
+    position: relative;
+    left: 685px;
+    margin-bottom: 30px;
+}
+
+
+.what > h3 {
+    position: relative;
+    left: 900px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: var(--color-bg-variant);
+    font-weight: 300;
+}
+
+.hello {
+
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+    margin-left: 40px;
 }

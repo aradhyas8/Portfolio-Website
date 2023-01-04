@@ -6,10 +6,11 @@ import Portfolio from './component/portfolio/Portfolio'
 import Contact from './component/contact/Contact'
 import Footer from './component/Footer/Footer'
 import About from './component/about/About'
+import Testing from './component/testing/Testing'
+import Name from './component/Name/Name'
 const App = () => {
   return (
     <>
-    
     <Header />
     <Navbar />
     <About />
@@ -17,7 +18,9 @@ const App = () => {
     <Portfolio />
     <Contact />
     <Footer />
+    
     </>
+    
   )
 }
 

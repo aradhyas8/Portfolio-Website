@@ -5,7 +5,7 @@ import CTA from './CTA';
 
 const Header = () => {
   const [typedText, setTypedText] = useState('');
-  const textToType = 'hello, I am Aradhya.';
+  const textToType = 'hi, I am Aradhya.';
 
   useEffect(() => {
     let index = 0;
@@ -27,29 +27,30 @@ const Header = () => {
       <div className="container header__container">
         <div className="large-text">{typedText}</div>
         
-        <h6>
-          I'm a programmer with a passion for building and solving. My skills and dedication help me stand out and tackle any challenge that comes my way. 
-          I love pushing the limits and finding creative solutions to problems.
-        </h6>
+        <div className="build">I like to build things</div>
+        <div  className="description__header"><h6>
+        I am a programmer with a focus on creating tools and products. Currently, I am interning as a QA Developer at <span className="highlighted"><a href="https://www.thescore.com/" target="_blank">theScore</a></span> and as a Software Engineer at <span className="highlighted"><a href="https://fibrainc.ca/">Fibra</a></span>, and completing my Undergrad at <span className="highlighted"><a href="https://yorku.ca/">York University</a></span>.
+        </h6></div>
+        
         
         <CTA />
         
-        <div className="header__socials-container" style={{ position: 'absolute', bottom: 0, right: 0 }}>
-          <div className="header__socials">
-            <a href="https://www.linkedin.com/in/aradhyas8/" className="header__social">
-              <FaLinkedin />
-            </a>
-            <a href="https://github.com/aradhyas8" className="header__social">
-              <FaGithub />
-            </a>
-          </div>
-        </div>
+        <div className="header__socials-container">
+  <div className="header__socials">
+    <a href="https://www.linkedin.com/in/aradhyas8/" className="header__social">
+      <FaLinkedin />
+    </a>
+    <a href="https://github.com/aradhyas8" className="header__social">
+      <FaGithub /> ━━━━━━━
+    </a>
+  </div>
+</div>
+
         
-        <a href="#contact" className="scroll__down">Scroll Down</a>
+        <p className="scroll__down">aradhya@my.yorku.ca ━━━━━━━━━━━</p>
       </div>
     </header>
   );
 };
-
 
 export default Header;

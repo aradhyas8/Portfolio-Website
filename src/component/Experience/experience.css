@@ -1,97 +1,67 @@
 .tabs {
     display: flex;
     flex-direction: row;
-    width: 100%;
-    padding-bottom: 30%;
+    margin-top: 200px;
+    margin-left: 150px
+    
+  
   }
   
   .tab-list {
+    margin-left: 300px;
     display: flex;
     flex-direction: column;
-    width: 200px;
-    list-style: none;
-    margin-top: 10%;
-    padding: 0;
+    
   }
   
   .tab-item {
-    display: flex;
-    width: 200px;
-    text-align: center;
-    padding: 15px;
-    background-color: #020c1b;
-    color: #c5ceef;
+    display: block;
+    width: 100px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: none;
+    outline: none;
     cursor: pointer;
-    margin-top: 15%;
-    white-space: nowrap;
-    align-items: center;
+    text-align: left;
   }
   
-  
-
-  li.active {
-    color: #017BFE;
+  .tab-item.active {
+    background-color: transparent;
+    border-right: 1.5px solid var(--color-bg-variant);
+    transition: 1s ease-in;
+    border-radius: 4px;
   }
   
   .tab-content {
     display: flex;
     flex-direction: column;
-    width: calc(100% - 500px);
-    padding: 20px;
-    background-color: #020c1b;
-    color: #c5ceef;
-    margin-top: 15%;
-    margin-left: 10%;
-    text-align: center;
-    padding: 1rem;
+    width: 40%; /* fixed width of 40% */
+    min-height: 0; /* allow height to be variable */
+    margin-left: 5%;
+  }
+  
+  .tab-item,
+  .tab-content {
+    background-color: transparent;
+  }
+  
+  .tab-list > button {
+    color: var(--color-grey);
+  }
+  
+  
+  .tab-content .h2-wrapper1 {
+    margin-bottom: 10px;
     
   }
   
-  .h5-container {
+  
+  .tab-content .h2-wrapper1 > h2 {
+    font-size: 25px;
     color: white;
-    margin-top: 2%;
-  }
-
-  ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-align: left;
-  }
-
-  li {
-    margin: 0.5rem 0;
-    padding: 0.5rem 0;
-   
-  }
-  
-  li:last-child {
-    border-bottom: none;
-  }
-
-  .tab-content h2 {
-    margin-top: -1rem;
-    color: #017BFE;
-
-  }
-
-
-  .company-logo {
-  width: 30px;
-  height: 30px;
-  margin-right: 10px;
-  border-radius: 50%;
-  }
-
-  .company-logo-cshub {
-    width: 35px;
-    height: 15px;
-    margin-right: 2px;
   
   }
   
-  .company-logo p {
-    width: 10px;
-    display: inline;
-    
+  .tab-content .dates {
+    margin-bottom: 10px;
   }

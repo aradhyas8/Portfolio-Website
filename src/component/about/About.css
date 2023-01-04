@@ -1,8 +1,15 @@
 .about__container p {
-    margin: 3rem 4rem 2.6rem;
-    display: left;
+    
+    width: 70%;
     color: var(--color-grey);
-    padding-top: 1%;
+    text-align: center;
+    margin: auto;
+
+}
+
+.about__me {
+  display: relative;
+  margin-top: 20%;
 }
 
 .about__line {
@@ -20,24 +27,24 @@
 .skills-item {
     display: flex;
   align-items: center;
-  padding-left: 80px;
+  
 }
 
 .skills-container {
-    padding-top: 5%;
-    display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, auto);
-  grid-column-gap: 5px; /* adds a gap of 10 pixels between the columns */
-  grid-row-gap: 5px; /* adds a gap of 20 pixels between the rows */
-  justify-content: center;
+  margin-top: 30px;
+  margin-left: 470px;
+  display: grid;
+  grid-template-columns: repeat(3, 15%);
+  grid-gap: 15px;
   }
 
   .skills-item {
-    margin: 0.5em;
+   
   }
 
   .h6-container h6 {
+    margin-top: 30px;
+    margin-left: 30%;
     font-size: 20px;
   }
   
