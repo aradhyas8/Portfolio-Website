@@ -81,7 +81,11 @@ export const Experience = () => {
     <ul>
       <li>
         <VscDebugStart className="debug-icon" color="#0094FA" />
-        Upcoming
+        <ul>
+      <li> <VscDebugStart className="debug-icon" color="#0094FA" /> Developing the Fibra app using Node.js and MongoDB for the backend and React Native for the front end.</li>
+      <li> <VscDebugStart className="debug-icon" color="#0094FA" /> Utilizing Firebase for real-time data synchronization and user authentication in the Fibra app.</li>
+      <li> <VscDebugStart className="debug-icon" color="#0094FA" /> Collaborating with a team to create a seamless and efficient user experience for the Fibra app through the implementation of various technologies.</li>
+    </ul>
       </li>
     </ul>
   )}
