@@ -80,7 +80,6 @@ export const Experience = () => {
  {selectedTab === 2 && (
     <ul>
       <li>
-        <VscDebugStart className="debug-icon" color="#0094FA" />
         <ul>
       <li> <VscDebugStart className="debug-icon" color="#0094FA" /> Developing the Fibra app using Node.js and MongoDB for the backend and React Native for the front end.</li>
       <li> <VscDebugStart className="debug-icon" color="#0094FA" /> Utilizing Firebase for real-time data synchronization and user authentication in the Fibra app.</li>
