@@ -1,0 +1,77 @@
+
+
+.exp-tabs {
+  font-size: 1.2rem;
+  padding-top: 10%;
+  margin-top: 10%;
+  .nav-pills button {
+    border-right: 2px solid white;
+    border-radius: 0;
+  }
+  .nav-pills button.active {
+    border-right: 2px solid #64ffda;
+    background-color: transparent;
+  }
+
+  .tab-content {
+    color: white;
+
+    .role-title {
+      a {
+        color: #64ffda;
+      }
+      width: fit-content;
+      font-size: 2rem;
+    }
+
+    .role-time {
+      color: #b1b1b1;
+      font-size: 1.5rem;
+
+      width: fit-content;
+    }
+
+    .role-description {
+      color: #b1b1b1;
+      font-size: 1.2rem;
+      max-width: 60%;
+    }
+  }
+
+  .exp-header h1 {
+    color: white;
+    position: relative;
+    font-size: 2.5rem;
+
+    width: fit-content;
+  }
+
+  .exp-header h1::after {
+    content: "";
+      position: absolute;
+      bottom: 25px;
+      left: 23rem;
+      transform: translateX(-50%);
+      border-top: 1px solid white;
+      width: 350px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  .exp-tabs {
+    .nav-pills button {
+      text-align: center;
+      border: none;
+    }
+    .nav-pills button.active {
+      border: none;
+      background-color: #007bff;
+      border-radius: 0.2rem;
+    }
+  }
+  .exp-header h1::after {
+    display: none;
+  }
+}
+
