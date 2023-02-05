@@ -30,9 +30,14 @@
     }
 
     .role-description {
+
       color: #b1b1b1;
       font-size: 1.2rem;
       max-width: 60%;
+
+      ul {
+        padding: 0;
+      }
     }
   }
 
@@ -69,10 +74,12 @@
       margin: auto;
     }
     .tab-content {
+      
       .role-description {
         text-align: center;
         margin: auto;
         max-width: 100%;
+        padding: 0;
       }
     }
 
