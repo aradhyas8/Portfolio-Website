@@ -7,27 +7,27 @@ const Navbar = () => {
       <ul class="nav justify-content-end">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">
-            01. Home
+          <span class="digit">01.</span> <span class="text">Home</span>
           </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#about">
-            02. About
+          <span class="digit"><p>02.</p></span> <span class="text">About</span>
           </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#experience">
-            03. Experience
+          <span class="digit">04.</span> <span class="text">Experience</span>
           </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#projects" tabindex="-1" aria-disabled="true">
-            04. Projects
+          <span class="digit">05.</span> <span class="text">Projects</span>
           </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#contact" tabindex="-1" aria-disabled="true">
-            05. Contact
+          <span class="digit">06.</span> <span class="text">Contact</span>
           </a>
         </li>
       </ul>
