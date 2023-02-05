@@ -1,5 +1,3 @@
-
-
 .exp-tabs {
   font-size: 1.2rem;
   padding-top: 10%;
@@ -48,35 +46,36 @@
 
   .exp-header h1::after {
     content: "";
-      position: absolute;
-      bottom: 25px;
-      left: 23rem;
-      transform: translateX(-50%);
-      border-top: 1px solid white;
-      width: 350px;
+    position: absolute;
+    bottom: 25px;
+    left: 23rem;
+    transform: translateX(-50%);
+    border-top: 1px solid white;
+    width: 350px;
   }
 }
 
 @media screen and (max-width: 600px) {
-
   .exp-tabs {
-
     .exp-header h1 {
       margin: auto;
       text-align: center;
     }
-    .role-title{
+    .role-title {
       margin: auto;
       text-align: center;
     }
     .role-time {
       margin: auto;
     }
-    .role-description {
-      text-align: center;
-      margin: auto;
-     
+    .tab-content {
+      .role-description {
+        text-align: center;
+        margin: auto;
+        max-width: 100%;
+      }
     }
+
     .nav-pills button {
       text-align: center;
       border: none;
@@ -91,4 +90,3 @@
     display: none;
   }
 }
-
