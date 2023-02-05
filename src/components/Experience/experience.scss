@@ -60,6 +60,23 @@
 @media screen and (max-width: 600px) {
 
   .exp-tabs {
+
+    .exp-header h1 {
+      margin: auto;
+      text-align: center;
+    }
+    .role-title{
+      margin: auto;
+      text-align: center;
+    }
+    .role-time {
+      margin: auto;
+    }
+    .role-description {
+      text-align: center;
+      margin: auto;
+     
+    }
     .nav-pills button {
       text-align: center;
       border: none;

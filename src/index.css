@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Inter:wght@100&family=Maven+Pro:wght@400;500&family=NTR&family=Outfit:wght@100&family=Rajdhani:wght@400;500&family=Roboto+Condensed:wght@300;400&family=Roboto+Mono:wght@300;400;500;600&family=Rubik:wght@400;500;600&family=Source+Code+Pro:wght@300;400&display=swap");
 
 * {
+ 
 
+  transition: all 1s ease-out-in;
   box-sizing: border-box;
 }
 

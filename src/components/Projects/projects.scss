@@ -81,6 +81,18 @@ a {
 }
 
 @media screen and (max-width: 600px) {
+
+  .proj-header h1{
+    margin: auto;
+    text-align: center;
+  }
+
+  .card-deck {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    text-align: center
+  }
   .proj-header h1::after{
     display: none;
   }
