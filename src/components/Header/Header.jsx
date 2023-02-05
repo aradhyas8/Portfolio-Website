@@ -12,7 +12,7 @@ export const Header = () => {
       cursor: "|",
     })
       .pauseFor(300)
-      .typeString("hi, I am Aradhya Singh.")
+      .typeString("hi, I am Aradhya.")
       .start();
   }, []);
 
