@@ -1,26 +1,13 @@
 .contact-father {
-  height: 70vh;
-
   margin-top: 12%;
-
-  
 }
-
 
 .contact {
   height: 70vh;
-
   text-align: center;
-
-
-
-
   .contact-description {
-
     padding-top: 10%;
   }
-
- 
 
   .contact-header h1 {
     color: white;
@@ -31,12 +18,12 @@
 
   .contact-header h1::after {
     content: "";
-      position: absolute;
-      bottom: 25px;
-      left: 15rem;
-      transform: translateX(-50%);
-      border-top: 1px solid white;
-      width: 200px;
+    position: absolute;
+    bottom: 25px;
+    left: 15rem;
+    transform: translateX(-50%);
+    border-top: 1px solid white;
+    width: 200px;
   }
 
   .title h2 {
@@ -61,14 +48,12 @@
 
 @media screen and (max-width: 600px) {
   .contact-father {
-    height: 50vh;
   }
   .contact-header h1::after {
     display: none;
   }
 
   .contact-header h1 {
-
     margin: auto;
     text-align: center;
   }

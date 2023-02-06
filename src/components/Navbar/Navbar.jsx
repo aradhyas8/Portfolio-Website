@@ -12,7 +12,7 @@ const Navbar = () => {
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#about">
-          <span class="digit"><p>02.</p></span> <span class="text">About</span>
+          <span class="digit">02.</span> <span class="text">About</span>
           </a>
         </li>
         <li class="nav-item">

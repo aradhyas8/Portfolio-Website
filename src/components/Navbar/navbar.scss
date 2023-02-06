@@ -8,27 +8,31 @@
   backdrop-filter: blur(20px);
   width: 100%;
 
-  a.nav-link:active {
-
-    .digit {
-      color: grey;
-    }
-  }
-
-    
-  
-    .text {
-      color: white;
-    }
-  
-  
 }
 
 
 .nav {
-  justify-content: flex-end;
-  padding: 20px;
 
+  justify-content: flex-end;
+  padding: 3rem;
+
+
+}
+
+.nav-link {
+  padding: 0;
+  .digit {
+   
+    color: #64ffda;
+    padding-right: 0.2rem;
+  }
+
+  .text {
+    color: #fff;
+    padding-right: 1.5rem;
+    letter-spacing: 4px;
+  
+  }
 }
 
 @media (max-width: 767px) {

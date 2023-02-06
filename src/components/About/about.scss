@@ -29,6 +29,10 @@
     font-size: 1.4rem;
     text-align: left;
     width: 70%;
+
+    .work-link {
+      color: #64ffda;
+    }
   }
 }
 
@@ -38,10 +42,21 @@
   display: grid;
   grid-template-columns: repeat(2, minmax(140px, 200px));
   justify-content: left;
+  list-style: none;
+  padding: 0;
 }
 
-li {
-  list-style: none;
+.custom-list-item {
+  position: relative;
+  padding-left: 1.5em;
+  margin-bottom: 1em;
+
+  &:before {
+    content: "▹";
+    position: absolute;
+    left: 0;
+    color: #64ffda;
+  }
 }
 
 a {

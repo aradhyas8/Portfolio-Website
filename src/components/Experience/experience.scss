@@ -36,7 +36,21 @@
       max-width: 60%;
 
       ul {
+        list-style: none;
         padding: 0;
+
+        li {
+          position: relative;
+          padding-left: 1.5em;
+          margin-bottom: 1em;
+      
+          &:before {
+            content: "▹";
+            position: absolute;
+            left: 0;
+            color: #64ffda;
+          }
+        }
       }
     }
   }
