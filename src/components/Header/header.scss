@@ -4,7 +4,16 @@
   .landing-page {
     height: 70vh;
     margin-top: 15%;
-    color: white;
+
+
+    .header-page {
+      opacity: 0;
+      transform: translateY(80px);
+      animation: fadeInUp 2.5s forwards;
+    }
+
+
+
 
     .header-title h1 {
       font-size: 5rem;
@@ -32,13 +41,27 @@
       }
     }
 
+
+    .resume-btn .btn-outline-primary {
+      color: #64ffda !important;
+      &:hover {
+        background-color: #64ffda !important;
+        color: #fff !important;
+      }
+    }
+
+    button {
+      border-color: #64ffda;
+      color: #64ffda;
+    }
+
     .landing-description p {
       word-spacing: 7px;
     }
   }
-
-
 }
+
+
 
 @media screen and (max-width: 600px) {
   .landing-par {
@@ -65,22 +88,17 @@
         margin-top: 1.5rem;
         font-size: 1rem;
       }
-      
     }
   }
 }
 
 @media screen and (max-width: 1050px) {
-  .landing-par{
+  .landing-par {
     .landing-page {
       padding-top: 15%;
-      
-      
     }
     .socials {
       display: none;
     }
   }
-
-  }
-  
+}

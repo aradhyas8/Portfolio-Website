@@ -2,6 +2,16 @@
   margin-top: 12%;
 }
 
+.contact-father .btn-outline-primary {
+  color: #64ffda !important;
+  border-color: #64ffda !important;
+  &:hover {
+    background-color: #64ffda !important;
+    color: #fff !important;
+    border-color: #64ffda !important;
+  }
+}
+
 .contact {
   height: 70vh;
   text-align: center;

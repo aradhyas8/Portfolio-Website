@@ -1,11 +1,13 @@
-
 .about {
   margin-top: 5%;
   padding-top: 10%;
+  opacity: 0;
+  transform: translateY(80px);
+  animation: fadeInUp 2.5s forwards;
 
   .about-header {
-    margin-bottom: 5%;
-
+    
+    animation: fadeInUp 2.5s forwards;
     h1 {
       color: white;
       position: relative;
@@ -66,8 +68,6 @@ a {
 
 @media screen and (max-width: 600px) {
   .about {
-   
-
     .about-description {
       margin: auto;
       width: 100%;
