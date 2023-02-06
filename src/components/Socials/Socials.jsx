@@ -1,5 +1,5 @@
 import React from "react";
-
+import './socials.scss'
 import { FiGithub } from "react-icons/fi";
 import { FiLinkedin } from "react-icons/fi";
 import { AiOutlineMail } from "react-icons/ai";
@@ -7,10 +7,10 @@ import { AiOutlineMail } from "react-icons/ai";
 const Socials = () => {
   return (
     <div className="socials">
-      <a href="https://linkedin.com/aradhyas8" target="_blank">
+      <a href="https://linkedin.com/aradhyas8">
         <FiLinkedin />
       </a>
-      <a href="https://github.com/aradhyas8" target="_blank">
+      <a href="https://github.com/aradhyas8">
         <FiGithub />
       </a>
       <a href="mailto:aradhya@my.yorku.ca">

@@ -7,8 +7,6 @@ import Navbar from "./components/Navbar/Navbar";
 import NavMobile from "./components/Navbar/NavMobile";
 import Footer from "./components/Footer/Footer";
 import Projects from "./components/Projects/Projects";
-import Tabs from "./components/Experience/Tabs";
-
 function App() {
   return (
     <>
@@ -20,6 +18,7 @@ function App() {
       <Projects />
       <Contact />
       <Footer />
+
     </>
   );
 }
