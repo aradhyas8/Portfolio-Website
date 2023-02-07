@@ -1,12 +1,9 @@
 .about {
-  margin-top: 5%;
-  padding-top: 10%;
   opacity: 0;
   transform: translateY(80px);
   animation: fadeInUp 2.5s forwards;
 
   .about-header {
-    
     animation: fadeInUp 2.5s forwards;
     h1 {
       color: white;
@@ -28,7 +25,7 @@
   }
 
   .about-description {
-    color: #b1b1b1;
+    color: var(--color-slate);
     font-size: 1.4rem;
     text-align: left;
     width: 70%;
@@ -40,7 +37,7 @@
 }
 
 .skills {
-  color: #b1b1b1;
+  color: var(--color-slate);
   font-size: 1.4rem;
   display: grid;
   grid-template-columns: repeat(2, minmax(140px, 200px));
@@ -58,13 +55,11 @@
     content: "▹";
     position: absolute;
     left: 0;
-    color: #64ffda;
+    color: var(--color-green);
   }
 }
 
-a {
-  text-decoration: none;
-}
+
 
 @media screen and (max-width: 600px) {
   .about {

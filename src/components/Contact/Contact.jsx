@@ -27,7 +27,9 @@ export const Contact = () => {
       </div>
       <div className="row">
         <div className="hello-button">
-          <button className="btn btn-outline-primary">Say Hello.</button>
+          <a href="mailto:aradhya@my.yorku.ca">
+            <button className="btn btn-outline-primary">Say Hello.</button>
+          </a>
         </div>
       </div>
       </div>
