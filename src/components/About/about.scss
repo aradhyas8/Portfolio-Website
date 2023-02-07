@@ -13,16 +13,6 @@
 
       width: fit-content;
     }
-
-    h1::after {
-      content: "";
-      position: absolute;
-      bottom: 25px;
-      left: 22rem;
-      transform: translateX(-50%);
-      border-top: 1px solid white;
-      width: 350px;
-    }
   }
 
   .about-description {
@@ -80,5 +70,7 @@
       margin-bottom: 10%;
       margin-top: 10%;
     }
+
+   
   }
 }
