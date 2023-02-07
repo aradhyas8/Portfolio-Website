@@ -38,13 +38,13 @@ export const About = () => {
         </div>
         <ul className="skills">
           <li className="custom-list-item">Java</li>
-          <li className="custom-list-item">Python</li>
           <li className="custom-list-item">Javascript</li>
-          <li className="custom-list-item">React.js</li>
           <li className="custom-list-item">Springboot</li>
-          <li className="custom-list-item">MySQL</li>
+          <li className="custom-list-item">React.js</li>
           <li className="custom-list-item">REST APIs</li>
           <li className="custom-list-item">Node.js</li>
+          <li className="custom-list-item">Python</li>
+          <li className="custom-list-item">SQL</li>
         </ul>
       </div>
     </section>
