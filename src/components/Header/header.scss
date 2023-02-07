@@ -80,9 +80,14 @@
       
 
       button {
+        
         margin-top: 1.5rem;
         font-size: 1rem;
         color: var(--color-green);
+        a {
+          color: var(--colo
+          );
+        }
       }
     }
   }

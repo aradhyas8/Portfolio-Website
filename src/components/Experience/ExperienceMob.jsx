@@ -8,6 +8,7 @@ import score from '../../assets/score.png'
 
 const ExperienceMob = () => {
   return (
+    <section id="experience">
     <div className="container exp-mob">
       <div className="exp-header">
         <h1>/Experience</h1>
@@ -252,6 +253,7 @@ const ExperienceMob = () => {
         </div>
       </div>
     </div>
+    </section>
   );
 };
 

@@ -1,13 +1,19 @@
 .accordion-item {
 
+ 
   background-color: transparent;
+  
+ 
+
 
   .accordion-header {
     color: grey;
   }
 
   .accordion-button {
+    
     &.collapsed {
+      border-radius: 5px;
       color: var(--color-white);
     }
   
@@ -16,6 +22,7 @@
     }
 
     &[aria-expanded="true"]{
+      border-radius: 5px;
       background-color: rgba($color: #64ffda, $alpha: 0.5);
       color: var(--color-white);
     }
@@ -38,13 +45,9 @@
   border-radius: 5px;
 }
 
-.accordion-header {
-  color: grey;
-}
 
-.accordion-collapse.show .accordion-header {
-  color: green;
-}
+
+
 
 
   .accordion-button {
@@ -97,3 +100,4 @@
 
     }
   }
+
