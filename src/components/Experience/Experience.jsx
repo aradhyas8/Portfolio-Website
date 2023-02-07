@@ -3,8 +3,8 @@ import "./experience.scss";
 
 export const Experience = () => {
   return (
-    <section id="experience">
-      <div class="container exp-tabs ">
+    <section >
+      <div class="container exp-tabs " id="experiencep">
         <div className="exp-header">
           <h1>/Experience</h1>
         </div>

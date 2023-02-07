@@ -4,10 +4,11 @@
   left: 0;
   right: 0;
   z-index: 1;
-  background: rgba(10, 25, 47, 0.9);
+  background: var(--color-bg);
   backdrop-filter: blur(20px);
   width: 100%;
 }
+
 
 .navi-list {
   justify-content: flex-end;

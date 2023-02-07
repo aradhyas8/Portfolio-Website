@@ -6,7 +6,7 @@ const Navbar = () => {
     <div className="nav-container">
       <ul class="nav justify-content-end navi-list">
         <li class="nav-item">
-          <a class="nav-link active navi-top" aria-current="page" href="#">
+          <a class="nav-link active navi-top" aria-current="page" href="#home-page">
           <span class="digit">01.</span> <span class="text">Home</span>
           </a>
         </li>

@@ -6,8 +6,8 @@ import { RiShareCircleLine } from "react-icons/ri";
 
 const Projects = () => {
   return (
-    <section id="projects">
-    <div className="container card-container">
+    <section >
+    <div className="container card-container" id="projects">
       <div className="proj-header">
         <h1>/Projects</h1>
       </div>

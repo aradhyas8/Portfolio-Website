@@ -18,6 +18,7 @@ export const Header = () => {
   }, []);
 
   return (
+    <section id="home-page">
     <div className="parent landing-par ">
       <div className="container landing-page">
         <div className="header-page">
@@ -51,6 +52,7 @@ export const Header = () => {
         </div>
       </div>
     </div>
+    </section>
   );
 };
 export default Header;
