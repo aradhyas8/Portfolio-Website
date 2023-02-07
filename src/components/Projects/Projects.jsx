@@ -95,7 +95,7 @@ const Projects = () => {
               search, dashboard, adopter matching and messaging features.
             </p>
           </div>
-          <div class="card-footer">Javascript,Node.js, React.js</div>
+          <div class="card-footer">Javascript, Node.js, React.js</div>
         </div>
         <div class="card">
           <div class="card-header">
