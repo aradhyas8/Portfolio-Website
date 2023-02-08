@@ -47,7 +47,7 @@
 
   .card {
     color: var(--color-white);
-    background-color: #112240;
+    background-color: rgba($color: #112240, $alpha: 1);
     border-radius: 5px;
     width: 18rem;
     margin: 1rem;
