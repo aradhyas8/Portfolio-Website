@@ -1,5 +1,5 @@
 .about {
-  padding-top: 10%;
+  margin-bottom: 5%;
   opacity: 0;
   transform: translateY(80px);
   animation: fadeInUp 2.5s forwards;
@@ -17,7 +17,7 @@
 
   .about-description {
     color: var(--color-slate);
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     text-align: left;
     width: 70%;
 

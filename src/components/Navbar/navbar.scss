@@ -1,18 +1,23 @@
 .nav-container {
   position: fixed;
+  display: flex;
+  margin-left: 50%;
+  justify-content: flex-end;
   top: 0;
   left: 0;
+
   right: 0;
   z-index: 1;
   background: var(--color-bg);
   backdrop-filter: blur(20px);
-  width: 100%;
+  width: 50%;
 }
 
 
 .navi-list {
+  height: 2rem;
   justify-content: flex-end;
-  padding: 3rem;
+
 }
 
 .navi-top {

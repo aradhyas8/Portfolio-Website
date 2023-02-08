@@ -5,6 +5,8 @@ import cshub from '../../assets/cshub.png'
 import cibc from '../../assets/cibc.png'
 import fibra from '../../assets/fibra.jpg'
 import score from '../../assets/score.png'
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const ExperienceMob = () => {
   return (
@@ -14,7 +16,7 @@ const ExperienceMob = () => {
         <h1>/Experience</h1>
       </div>
       <div class="accordion" id="accordionPanelsStayOpenExample">
-        <div class="accordion-item">
+        <div class="accordion-item" data-aos="fade-up">
           <h2 class="accordion-header" id="panelsStayOpen-headingOne">
             <button
               class="accordion-button"
@@ -62,7 +64,7 @@ const ExperienceMob = () => {
             </div>
           </div>
         </div>
-        <div class="accordion-item">
+        <div class="accordion-item" data-aos="fade-up">
           <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
             <button
               class="accordion-button collapsed"
@@ -93,7 +95,7 @@ const ExperienceMob = () => {
             </div>
           </div>
         </div>
-        <div class="accordion-item">
+        <div class="accordion-item" data-aos="fade-up">
           <h2 class="accordion-header" id="panelsStayOpen-headingThree">
             <button
               class="accordion-button collapsed"
@@ -149,7 +151,7 @@ const ExperienceMob = () => {
           </div>
         </div>
 
-        <div class="accordion-item">
+        <div class="accordion-item" data-aos="fade-up">
           <h2 class="accordion-header" id="panelsStayOpen-headingFour">
             <button
               class="accordion-button collapsed"
@@ -203,7 +205,7 @@ const ExperienceMob = () => {
             </div>
           </div>
         </div>
-        <div class="accordion-item">
+        <div class="accordion-item" data-aos="fade-up">
           <h2 class="accordion-header" id="panelsStayOpen-headingFive">
             <button
               class="accordion-button collapsed"

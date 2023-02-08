@@ -1,17 +1,23 @@
 import React from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import "./about.scss";
 
 export const About = () => {
+  React.useEffect(() => {
+    AOS.init({
+      duration: 1000,
+    });
+  }, []);
   return (
-    <section >
+    <section>
       <div className="container about" id="about">
         <div className="row">
-          <div className="about-header">
+          <div className="about-header" data-aos="fade-up">
             <h1>/About me</h1>
           </div>
         </div>
-
-        <div className="row about-description">
+        <div className="row about-description" data-aos="fade-up">
           <p>
             Hello, my name is Aradhya Singh. I have a passion for software
             development . I am currently a QA Analyst at{" "}
@@ -33,10 +39,10 @@ export const About = () => {
             , where I am in my third year of studies.
           </p>
         </div>
-        <div className="row about-description ">
+        <div className="row about-description" data-aos="fade-up">
           <p>Here are few technologies I am tinkering with:</p>
         </div>
-        <ul className="skills">
+        <ul className="skills" data-aos="fade-up">
           <li className="custom-list-item">Java</li>
           <li className="custom-list-item">Javascript</li>
           <li className="custom-list-item">Springboot</li>
@@ -50,4 +56,5 @@ export const About = () => {
     </section>
   );
 };
+
 export default About;

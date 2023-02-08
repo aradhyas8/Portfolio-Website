@@ -7,22 +7,22 @@ export const Contact = () => {
       <div className="parent contact-father">
         <div className="container contact">
           <div className="contact-header">
-            <h1>/Contact</h1>
+            <h1 data-aos="fade-up">/Contact</h1>
           </div>
           <div className="contact-description">
             <div className="row">
               <div className="title">
-                <h2>What's next?</h2>
+                <h2 data-aos="fade-up">What's next?</h2>
               </div>
             </div>
             <div className="row">
               <div className="get-touch">
-                <p>Get in Touch</p>
+                <p data-aos="fade-up">Get in Touch</p>
               </div>
             </div>
             <div className="row">
               <div className="statement">
-                <p>
+                <p data-aos="fade-up">
                   I will be glad to contribute to any project, Let's build
                   something amazing together!
                 </p>
@@ -31,7 +31,7 @@ export const Contact = () => {
             <div className="row">
               <div className="hello-button">
                 <a href="mailto:aradhya@my.yorku.ca">
-                  <button className="btn btn-outline-primary">
+                  <button className="btn btn-outline-primary" data-aos="fade-up">
                     Say Hello.
                   </button>
                 </a>
