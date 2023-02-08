@@ -18,7 +18,8 @@ export const Header = () => {
       cursor: "|",
     })
       .pauseFor(300)
-      .typeString("hi, I am Aradhya.")
+      .typeString("hi, I am ")
+      .typeString('<span style="color: #64ffda;">Aradhya.</span>')
       .start();
   }, []);
 

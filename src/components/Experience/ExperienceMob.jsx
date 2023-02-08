@@ -13,7 +13,7 @@ const ExperienceMob = () => {
     <section id="experience">
     <div className="container exp-mob">
       <div className="exp-header">
-        <h1>/Experience</h1>
+        <h1 data-aos="fade-up">/Experience</h1>
       </div>
       <div class="accordion" id="accordionPanelsStayOpenExample">
         <div class="accordion-item" data-aos="fade-up">
