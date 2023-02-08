@@ -31,7 +31,10 @@ export const Contact = () => {
             <div className="row">
               <div className="hello-button">
                 <a href="mailto:aradhya@my.yorku.ca">
-                  <button className="btn btn-outline-primary" data-aos="fade-up">
+                  <button
+                    className="btn btn-outline-primary"
+                    data-aos="fade-up"
+                  >
                     Say Hello.
                   </button>
                 </a>
