@@ -42,15 +42,31 @@ export const About = () => {
         <div className="row about-description" data-aos="fade-up">
           <p>Here are few technologies I am tinkering with:</p>
         </div>
-        <ul className="skills" data-aos="fade-up">
-          <li className="custom-list-item">Java</li>
-          <li className="custom-list-item">Javascript</li>
-          <li className="custom-list-item">Springboot</li>
-          <li className="custom-list-item">React.js</li>
-          <li className="custom-list-item">REST APIs</li>
-          <li className="custom-list-item">Node.js</li>
-          <li className="custom-list-item">Python</li>
-          <li className="custom-list-item">SQL</li>
+        <ul className="skills">
+          <li className="custom-list-item" data-aos="fade-up">
+            Java
+          </li>
+          <li className="custom-list-item" data-aos="fade-up">
+            Javascript
+          </li>
+          <li className="custom-list-item" data-aos="fade-up">
+            Springboot
+          </li>
+          <li className="custom-list-item" data-aos="fade-up">
+            React.js
+          </li>
+          <li className="custom-list-item" data-aos="fade-up">
+            REST APIs
+          </li>
+          <li className="custom-list-item" data-aos="fade-up">
+            Node.js
+          </li>
+          <li className="custom-list-item" data-aos="fade-up">
+            Python
+          </li>
+          <li className="custom-list-item" data-aos="fade-up">
+            SQL
+          </li>
         </ul>
       </div>
     </section>

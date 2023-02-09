@@ -16,7 +16,7 @@ const ExperienceMob = () => {
         <h1 data-aos="fade-up">/Experience</h1>
       </div>
       <div class="accordion" id="accordionPanelsStayOpenExample">
-        <div class="accordion-item" data-aos="fade-up">
+        <div class="accordion-item" data-aos="fade-left">
           <h2 class="accordion-header" id="panelsStayOpen-headingOne">
             <button
               class="accordion-button"
@@ -36,25 +36,25 @@ const ExperienceMob = () => {
             aria-labelledby="panelsStayOpen-headingOne"
           >
             <div class="accordion-body">
-              <div className="role-title">
+              <div className="role-title" data-aos="fade-up">
                 <p>
                   Software Developer @ <a href="https://fibrainc.ca/">Fibra</a>
                 </p>
               </div>
-              <div className="role-time">
+              <div className="role-time" data-aos="fade-up">
                 <p>January 2023-Present</p>
               </div>
               <div className="role-description">
                 <ul>
-                  <li>
+                  <li  data-aos="fade-up">
                     Developing the Fibra app using Node.js and MongoDB for the
                     backend and React Native for the front end.
                   </li>
-                  <li>
+                  <li  data-aos="fade-up">
                     Utilizing Firebase for real-time data synchronization and
                     user authentication in the Fibra app.
                   </li>
-                  <li>
+                  <li  data-aos="fade-up">
                     Collaborating with a team to create a seamless and efficient
                     user experience for the Fibra app through the implementation
                     of various technologies.
@@ -64,7 +64,7 @@ const ExperienceMob = () => {
             </div>
           </div>
         </div>
-        <div class="accordion-item" data-aos="fade-up">
+        <div class="accordion-item" data-aos="fade-right">
           <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
             <button
               class="accordion-button collapsed"
@@ -95,7 +95,7 @@ const ExperienceMob = () => {
             </div>
           </div>
         </div>
-        <div class="accordion-item" data-aos="fade-up">
+        <div class="accordion-item" data-aos="fade-left">
           <h2 class="accordion-header" id="panelsStayOpen-headingThree">
             <button
               class="accordion-button collapsed"
@@ -151,7 +151,7 @@ const ExperienceMob = () => {
           </div>
         </div>
 
-        <div class="accordion-item" data-aos="fade-up">
+        <div class="accordion-item" data-aos="fade-right">
           <h2 class="accordion-header" id="panelsStayOpen-headingFour">
             <button
               class="accordion-button collapsed"
@@ -205,7 +205,7 @@ const ExperienceMob = () => {
             </div>
           </div>
         </div>
-        <div class="accordion-item" data-aos="fade-up">
+        <div class="accordion-item" data-aos="fade-left">
           <h2 class="accordion-header" id="panelsStayOpen-headingFive">
             <button
               class="accordion-button collapsed"

@@ -24,7 +24,7 @@ export const Header = () => {
   }, []);
 
   return (
-    <section id="home-page" data-aos="fade-up">
+    <section id="home-page">
       <div className="parent landing-par ">
         <div className="container landing-page">
           <div className="header-page">
@@ -51,7 +51,7 @@ export const Header = () => {
               </p>
             </div>
             <div className="resume-btn" data-aos="fade-up">
-              <button class="btn btn-outline-primary btn-lg resume-tag">
+              <button class="btn btn-outline-primary btn-lg resume-tag" data-aos="fade-up">
                 <a href={Aradhya_Singh_Website}>Resume</a>
               </button>
             </div>
