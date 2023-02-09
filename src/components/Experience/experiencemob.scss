@@ -12,6 +12,7 @@
 
   .accordion-button {
     &.collapsed {
+      
       border-radius: 5px;
       color: var(--color-white);
     }
@@ -79,6 +80,8 @@
 }
 }
 
+
+
 @media screen and (max-width: 600px) {
   .exp-header h1 {
     margin: auto;
@@ -90,3 +93,5 @@
  
   }
 }
+
+

@@ -147,7 +147,7 @@ const Projects = () => {
                 World Bank API data in visual format.
               </p>
             </div>
-            <div class="card-footer">Java, REST APIs, Swing</div>
+            <div class="card-footer">Java, REST APIs, Java Swing</div>
           </div>
         </div>
       </div>
