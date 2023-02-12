@@ -3,6 +3,8 @@
   position: fixed;
   display: flex;
   margin-left: 50%;
+  flex-wrap: nowrap;
+  align-items: center;
   justify-content: flex-end;
   top: 0;
   left: 0;
@@ -14,9 +16,13 @@
   width: 50%;
 }
 
+.nav {
+  display: flex;
+  flex-wrap: nowrap;
+}
 
 .navi-list {
-
+  display: flex;
   height: 2rem;
   justify-content: flex-end;
 
