@@ -4,7 +4,7 @@ import "./footer.scss";
 const Footer = () => {
   return (
     <div className="footer">
-      <p>Designed and Built by Aradhya."<copy>C</copy></p>
+      <p>Designed and Built by Aradhya.</p>
     </div>
   );
 };
