@@ -149,6 +149,25 @@ const Projects = () => {
             </div>
             <div class="card-footer">Java, REST APIs, Java Swing</div>
           </div>
+          <div class="card" data-aos="fade-up">
+            <div class="card-header">
+              <div className="folder">
+                <FiFolder />
+              </div>
+              <div className="git-share">
+                <a href="https://github.com/aradhyas8/FaceRecognitionAttendaceProject">
+                  <FiGithub />
+                </a>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Personal Website</h5>
+              <p class="card-text">
+                Personal Website built with Bootstrap, React and hosted on Netlify.
+              </p>
+            </div>
+            <div class="card-footer">Html, CSS, React.JS, Bootstrap</div>
+          </div>
         </div>
       </div>
     </section>
