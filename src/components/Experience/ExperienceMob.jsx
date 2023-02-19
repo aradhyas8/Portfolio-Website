@@ -91,7 +91,13 @@ const ExperienceMob = () => {
               </div>
               <div className="role-description">
                 <ul>
-                  <li>Upcoming</li>
+                  <li data-aos="fade-up">Conducting cross-platform testing (Android, iOS, and Web) to assess readiness for production releases of sports media and betting apps.</li>
+                  <li data-aos="fade-up">
+                  Developing test cases in TestRail and executed test plans to ensure high-quality feature delivery, and participated in bug triaging, priority assessment, and coverage tracking.
+                  </li>
+                  <li data-aos="fade-up"> 
+                  Collaborating with cross-functional teams to ensure adherence to best practices and standards in QA, and working with the Test Automation team to review, prioritize and analyze test cases for automation results.
+                  </li>
                 </ul>
               </div>
             </div>
