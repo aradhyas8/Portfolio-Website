@@ -155,7 +155,7 @@ const Projects = () => {
                 <FiFolder />
               </div>
               <div className="git-share">
-                <a href="https://github.com/aradhyas8/FaceRecognitionAttendaceProject">
+                <a href="https://github.com/aradhyas8/Personal-Website-Template">
                   <FiGithub />
                 </a>
               </div>
