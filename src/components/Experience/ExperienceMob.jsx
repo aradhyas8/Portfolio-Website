@@ -98,9 +98,18 @@ const ExperienceMob = () => {
               aria-labelledby="panelsStayOpen-headingTwo"
             >
               <div class="accordion-body">
+              <div className="role-title">
+                  <p>
+                    QA Analyst @{" "}
+                    <a href="https://www.thescore.com">
+                      theScore
+                    </a>
+                  </p>
+                </div>
                 <div className="role-time">
                   <p>January 2023-Present</p>
                 </div>
+                
                 <div className="role-description">
                   <ul>
                     <li data-aos="fade-up">
