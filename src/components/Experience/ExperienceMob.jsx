@@ -47,17 +47,19 @@ const ExperienceMob = () => {
               <div className="role-description">
                 <ul>
                   <li  data-aos="fade-up">
-                    Developing the Fibra app using Node.js and MongoDB for the
-                    backend and React Native for the front end.
+                  Collaborated with cross-functional teams to design the UI/UX of the Fibra app in Figma, ensuring a polished and intuitive user experience.
                   </li>
                   <li  data-aos="fade-up">
-                    Utilizing Firebase for real-time data synchronization and
-                    user authentication in the Fibra app.
+                  Utilizing React Native to seamlessly integrate the UI/UX design into the Fibra app.
                   </li>
                   <li  data-aos="fade-up">
-                    Collaborating with a team to create a seamless and efficient
-                    user experience for the Fibra app through the implementation
-                    of various technologies.
+                  Implementing RESTful APIs using Node.js and Firestore to optimize data storage and retrieval in the Fibra app, enabling lightning-fast performance and seamless scalability.
+                  </li>
+                  <li data-aos="fade-up">
+                  Implementing user authentication and security features utilizing Firebase Auth and Firestore Security Rules, providing unparalleled data privacy and protection for users.
+                  </li>
+                  <li data-aos="fade-up">
+                  Effectively employed Firestore as a database, streamlining app performance and enabling seamless data synchronization across all devices.
                   </li>
                 </ul>
               </div>
