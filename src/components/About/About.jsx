@@ -39,8 +39,8 @@ export const About = () => {
             , where I am in my third year of studies.
           </p>
         </div>
-        <div className="row about-description" data-aos="fade-up">
-          <p>Here are few technologies I am tinkering with:</p>
+        <div className="row about-description" >
+          <p data-aos="fade-up">Here are few technologies I am tinkering with:</p>
         </div>
         <ul className="skills">
           <li className="custom-list-item" data-aos="fade-up">

@@ -189,16 +189,13 @@ const ExperienceMob = () => {
                 </p>
                 <ul>
                   <li>
-                    Setting up a database and integrating with payment gateways
-                    to streamline the checkout process
+                  Designing and developing the backend architecture for the merch store, usingSpringBoot to create robust and scalable APIs and DAO layer.
                   </li>
                   <li>
-                    Building APIs and implementing SSL certificates to ensure
-                    the security and confidentiality of our customers' data
+                  Implemented complex business logic and optimized database queries to improve API performance, resulting in a 20% reduction in response time.
                   </li>
                   <li>
-                    Monitoring performance and implementing backup systems to
-                    guarantee the reliability of the platform for our users.
+                  Utilized AWS and Docker to automate the deployment and scaling of the backend infrastructure, reducing deployment time by 50% and increasing system uptime.
                   </li>
                 </ul>
               </div>
