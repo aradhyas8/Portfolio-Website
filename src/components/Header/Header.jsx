@@ -11,13 +11,13 @@ export const Header = () => {
 
   useEffect(() => {
     Aos.init({
-      duration: 2000,
+      duration: 50,
     });
     new Typewriter(headingRef.current, {
       loop: false,
       cursor: "|",
     })
-      .pauseFor(300)
+      .pauseFor(50)
       .typeString("hi, I am ")
       .typeString('<span style="color: #64ffda;">Aradhya.</span>')
       .start();
@@ -28,7 +28,7 @@ export const Header = () => {
       <div className="parent landing-par ">
         <div className="container landing-page">
           <div className="header-page">
-            <div className="row header-title" data-aos="fade-up">
+            <div className="row header-title" >
               <h1 ref={headingRef} />
             </div>
             <div className="row header-two" data-aos="fade-up">
