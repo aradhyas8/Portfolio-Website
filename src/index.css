@@ -39,7 +39,7 @@ section {
 
 body {
   width: 100%;
-  height: auto;
+  
   overflow: hidden;
   color: var(--color-slate);
   line-height: 1.7;
