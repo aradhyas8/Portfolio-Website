@@ -6,6 +6,7 @@ import cibc from "../../assets/cibc.png";
 import fibra from "../../assets/fibra.jpg";
 import score from "../../assets/score.png";
 import AOS from "aos";
+import yuhacks from "../../assets/yuhacks.png";
 import "aos/dist/aos.css";
 
 const ExperienceMob = () => {
@@ -98,18 +99,15 @@ const ExperienceMob = () => {
               aria-labelledby="panelsStayOpen-headingTwo"
             >
               <div class="accordion-body">
-              <div className="role-title">
+                <div className="role-title">
                   <p>
-                    QA Analyst @{" "}
-                    <a href="https://www.thescore.com">
-                      theScore
-                    </a>
+                    QA Analyst @ <a href="https://www.thescore.com">theScore</a>
                   </p>
                 </div>
                 <div className="role-time">
                   <p>January 2023-Present</p>
                 </div>
-                
+
                 <div className="role-description">
                   <ul>
                     <li data-aos="fade-up">
@@ -289,6 +287,80 @@ const ExperienceMob = () => {
                       Facilitating when a student may be experiencing
                       difficulties and developing a plan of support with the
                       guidance of Student Support Staff.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item" data-aos="fade-left">
+            <h2 class="accordion-header" id="panelsStayOpen-headingSix">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseSix"
+                aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseSix"
+              >
+                YU Hacks
+                <img className="exp-logo-yuhacks" src={yuhacks}></img>
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseSix"
+              class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingSix"
+            >
+              <div class="accordion-body">
+                <div className="role-title">
+                  <p>
+                    Software Developer @{" "}
+                    <a href="https://yuhacks.ca/">YU Hacks 2023</a>
+                  </p>
+                </div>
+                <div className="role-time">
+                  <p>January 2023-Present</p>
+                </div>
+                <div className="role-description">
+                  <ul>
+                    <li>
+                      Leading the technical development team and overseeing the
+                      development of the YuHacks website and mobile app.
+                    </li>
+                    <li>
+                      Collaborating with other team members to ensure that the
+                      website meets the needs of the organization and
+                      effectively communicates with participants and sponsors.
+                    </li>
+                  </ul>
+                </div>
+                <div class="role-title">
+                  <p>First Prize Winner @ {" "}
+                    <a href="https://yuhacks.ca/">YU Hacks 2022</a></p>
+                </div>
+                <div class="role-time">
+                  <p>February 2022</p>
+                </div>
+                <div class="role-description">
+                  <ul>
+                    <li>
+                      Mentored a team of 4 and attained 1st in a 24-hour period
+                      competition with over 300+ participants teams.
+                    </li>
+                    <li>
+                      Developed a project to improve the process of matching
+                      animals in rescue centers with potential forever homes
+                      using Node.js and the Express framework.
+                    </li>
+                    <li>
+                      Implemented a search feature and used a JSON file to store
+                      data and mimic reading from a large database.
+                    </li>
+                    <li>
+                      Built an organization dashboard and an adopter profile
+                      creation and matching process, as well as a messaging
+                      feature.
                     </li>
                   </ul>
                 </div>
