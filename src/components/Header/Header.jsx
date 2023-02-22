@@ -42,7 +42,7 @@ export const Header = () => {
                   theScore
                 </a>{" "}
                 and a Software Developer at{" "}
-                <a className="work-link" href="https://fibra.com/">
+                <a className="work-link" href="https://fibrainc.ca//">
                   Fibra
                 </a>
                 , I have a profound interest in full stack development. I am
