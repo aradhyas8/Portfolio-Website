@@ -2,7 +2,7 @@
  
   position: fixed;
   display: flex;
-  margin-left: 50%;
+
   flex-wrap: nowrap;
   align-items: center;
   justify-content: flex-end;
@@ -13,7 +13,7 @@
   z-index: 1;
   background: var(--color-bg);
   backdrop-filter: blur(20px);
-  width: 50%;
+  width: 100%;
 }
 
 .nav {
