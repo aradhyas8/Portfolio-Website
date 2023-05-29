@@ -62,7 +62,7 @@ export const About = () => {
             Node.js
           </li>
           <li className="custom-list-item" data-aos="fade-up">
-            Python
+            GraphQL
           </li>
           <li className="custom-list-item" data-aos="fade-up">
             SQL

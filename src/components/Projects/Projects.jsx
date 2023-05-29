@@ -174,7 +174,7 @@ const Projects = () => {
                 <FiFolder />
               </div>
               <div className="git-share">
-                <a href="https://github.com/aradhyas8/Personal-Website-Template">
+                <a href="https://github.com/aradhyas8/API-Generator">
                   <FiGithub />
                 </a>
               </div>
@@ -185,7 +185,7 @@ const Projects = () => {
                 A Web-app that allows you build personalized APIs with API endpoint customization.
               </p>
             </div>
-            <div class="card-footer">Javascript, Node.js, Mongo DB, GraphQL, Express.js</div>
+            <div class="card-footer">Javascript, Node.js, Mongo DB, GraphQL, Express.js, React, Tailwind CSS</div>
           </div>
         </div>
       </div>
