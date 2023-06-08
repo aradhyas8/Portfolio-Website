@@ -9,7 +9,7 @@ import "aos/dist/aos.css";
 const Socials = () => {
   return (
     <div className="socials">
-      <a href="https://linkedin.com/aradhyas8" data-aos="fade-left">
+      <a href="https://www.linkedin.com/in/aradhyas8/" data-aos="fade-left">
         <FiLinkedin />
       </a>
       <a href="https://github.com/aradhyas8" data-aos="fade-right">
