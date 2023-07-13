@@ -161,12 +161,12 @@ const Projects = () => {
               </div>
             </div>
             <div class="card-body">
-              <h5 class="card-title">Personal Website</h5>
+              <h5 class="card-title">yuHacks Website</h5>
               <p class="card-text">
-                Personal Website built with Bootstrap, React and hosted on Netlify.
+                Developed a fullstack website for yuHacks : 2023.
               </p>
             </div>
-            <div class="card-footer">Html, CSS, React.JS, Bootstrap</div>
+            <div class="card-footer">Typescript, Next.js, Tailwind CSS, Node.js, GraphQL, Express, MongoDB</div>
           </div>
           <div class="card" data-aos="fade-up">
             <div class="card-header">
