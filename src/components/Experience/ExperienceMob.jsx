@@ -215,7 +215,7 @@ const ExperienceMob = () => {
                   </p>
                 </div>
                 <div className="role-time">
-                  <p>October 2022-Present</p>
+                  <p>October 2022-April 2023</p>
                 </div>
                 <div className="role-description">
                   <p>

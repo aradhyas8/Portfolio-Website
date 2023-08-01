@@ -166,7 +166,10 @@ const Projects = () => {
                 Developed a fullstack website for yuHacks : 2023.
               </p>
             </div>
-            <div class="card-footer">Typescript, Next.js, Tailwind CSS, Node.js, GraphQL, Express, MongoDB</div>
+            <div class="card-footer">
+              Typescript, Next.js, Tailwind CSS, Node.js, GraphQL, Express,
+              MongoDB
+            </div>
           </div>
           <div class="card" data-aos="fade-up">
             <div class="card-header">
@@ -182,10 +185,14 @@ const Projects = () => {
             <div class="card-body">
               <h5 class="card-title">API Generator</h5>
               <p class="card-text">
-                A Web-app that allows you build personalized APIs with API endpoint customization.
+                A Web-app that allows you build personalized APIs with API
+                endpoint customization.
               </p>
             </div>
-            <div class="card-footer">Javascript, Node.js, Mongo DB, GraphQL, Express.js, React, Tailwind CSS</div>
+            <div class="card-footer">
+              Javascript, Node.js, Mongo DB, GraphQL, Express.js, React,
+              Tailwind CSS
+            </div>
           </div>
         </div>
       </div>

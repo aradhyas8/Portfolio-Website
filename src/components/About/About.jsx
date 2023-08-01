@@ -28,9 +28,9 @@ export const About = () => {
             <a className="work-link" href="https://fibra.io/">
               Fibra
             </a>
-            . In my free time, I contribute as a backend developer at{" "}
-            <a className="work-link" href="https://cshub.ca/">
-              CS HUB
+            . In my free time, I contribute as a software developer at{" "}
+            <a className="work-link" href="https://yuhacks.ca/">
+              yuHacks 2023
             </a>{" "}
             at{" "}
             <a className="work-link" href="https://www.yorku.ca/">

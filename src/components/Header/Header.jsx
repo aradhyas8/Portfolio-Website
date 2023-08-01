@@ -28,7 +28,7 @@ export const Header = () => {
       <div className="parent landing-par ">
         <div className="container landing-page">
           <div className="header-page">
-            <div className="row header-title" >
+            <div className="row header-title">
               <h1 ref={headingRef} />
             </div>
             <div className="row header-two" data-aos="fade-up">
@@ -36,22 +36,25 @@ export const Header = () => {
             </div>
             <div className="row landing-description" data-aos="fade-up">
               <p>
-                I'm a programmer with a focus on tools and products. I'm
-                currently an intern QA Developer at{" "}
+                As a programmer extraordinaire, I juggle two roles: slaying bugs
+                as an intern QA Developer at{" "}
                 <a className="work-link" href="https://www.thescore.com/">
                   theScore
                 </a>{" "}
-                and a Software Developer at{" "}
+                and weaving code magic as a Software Developer at{" "}
                 <a className="work-link" href="https://fibrainc.ca//">
                   Fibra
                 </a>
-                , I have a profound interest in full stack development. I am
-                eager to bring my expertise and enthusiasm to new projects and
-                continue to grow as a programmer.
+                , Software development is my playground, and I'm always hungry for new
+                challenges to devour. Let's team up and code the world into a
+                better place! 🚀
               </p>
             </div>
             <div className="resume-btn" data-aos="fade-up">
-              <button class="btn btn-outline-primary btn-lg resume-tag" data-aos="fade-up">
+              <button
+                class="btn btn-outline-primary btn-lg resume-tag"
+                data-aos="fade-up"
+              >
                 <a href={Aradhya_Singh_Website}>Resume</a>
               </button>
             </div>
